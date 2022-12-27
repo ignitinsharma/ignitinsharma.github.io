@@ -1,5 +1,6 @@
 .Container {
   width: 100%;
+  background-color: #Ffffff;
   height: 450px;
 }
 
@@ -77,13 +78,16 @@ a {
   color: #12cc94;
 }
 .IconsContainer {
-  border: 1px solid red;
-  padding: 0.5rem 0rem;
+  padding-top: 0.6rem;
+  padding-left: 0.4rem;
 }
 .IconsContainer a {
-  margin-right: 1rem;
+  margin-right: 0.5rem;
 }
-
+.AboutIcons:hover {
+    background-color: #12cc94;
+  }
+  
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   /* height:450px; */
   .aboutBox {

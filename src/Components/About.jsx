@@ -30,13 +30,13 @@ const About = () => {
             </a>
             <div className="IconsContainer">
               <a target="_blank" href="https://github.com/ignitinsharma">
-                <GitHubIcon />
+                <GitHubIcon className="AboutIcons" />
               </a>
               <a target="_blank" href="https://github.com/ignitinsharma">
-                <LinkedInIcon />
+                <LinkedInIcon className="AboutIcons" />
               </a>
               <a target="_blank" href="https://github.com/ignitinsharma">
-                <TwitterIcon />
+                <TwitterIcon className="AboutIcons" />
               </a>
               
             </div>
