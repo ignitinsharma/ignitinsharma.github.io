@@ -2,6 +2,9 @@ import React from "react";
 import DownloadIcon from "@mui/icons-material/Download";
 import myImage from "../Resources/Images/Personal/Profile_Photo.jpg";
 import mysignature from "../Resources/Images/Personal/Nitin_signature.png";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import TwitterIcon from '@mui/icons-material/Twitter';
 
 import "../CSS/About.css";
 
@@ -25,6 +28,18 @@ const About = () => {
                 <DownloadIcon />
               </button>
             </a>
+            <div className="IconsContainer">
+              <a target="_blank" href="https://github.com/ignitinsharma">
+                <GitHubIcon />
+              </a>
+              <a target="_blank" href="https://github.com/ignitinsharma">
+                <LinkedInIcon />
+              </a>
+              <a target="_blank" href="https://github.com/ignitinsharma">
+                <TwitterIcon />
+              </a>
+              
+            </div>
           </div>
           <div className="about_rightBox">
             <div>
@@ -61,7 +76,12 @@ const About = () => {
               individual and company growth..
             </p>
             <div>
-              <img className="SignatureImage" src={mysignature} alt="Nitin_Signature" width="200px" />
+              <img
+                className="SignatureImage"
+                src={mysignature}
+                alt="Nitin_Signature"
+                width="200px"
+              />
             </div>
           </div>
         </div>
