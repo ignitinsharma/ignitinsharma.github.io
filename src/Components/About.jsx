@@ -1,8 +1,8 @@
 import React from "react";
 import DownloadIcon from "@mui/icons-material/Download";
 // import myImage from "../Resources/Images/Personal/Profile_pic_mine.png";
-import myImage2 from "../Resources/Images/Personal/Profile_pic_mine_2.png";
-import mysignature from "../Resources/Images/Personal/Nitin_signature.png";
+import myImage2 from "../Images/Personal/Profile_pic_mine_2.png";
+import mysignature from "../Images/Personal/Nitin_signature.png";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import TwitterIcon from "@mui/icons-material/Twitter";
