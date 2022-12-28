@@ -1,14 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.5c332c0f.css",
-    "main.js": "/static/js/main.8e326e3f.js",
+    "main.css": "/static/css/main.b3a292af.css",
+    "main.js": "/static/js/main.c7bbe34a.js",
     "static/media/Profile_pic_mine_2.png": "/static/media/Profile_pic_mine_2.babf3b21beff73aac55c.png",
+    "static/media/react.png": "/static/media/react.22d1f2096ed82cab7a8a.png",
+    "static/media/mongodb.png": "/static/media/mongodb.4f7af09e6354d51beec8.png",
+    "static/media/Css.png": "/static/media/Css.845e8eb63836bef093cf.png",
+    "static/media/git.png": "/static/media/git.b1472a80b81e487179cf.png",
+    "static/media/redux.png": "/static/media/redux.7fec6369cecd1cbd44d6.png",
+    "static/media/Express.png": "/static/media/Express.667d92fdc12dd145a38b.png",
+    "static/media/nodejs.png": "/static/media/nodejs.b508473ad71a31ce2fae.png",
+    "static/media/Html.png": "/static/media/Html.4e6edfe05f07c383e94f.png",
+    "static/media/JavaScript.png": "/static/media/JavaScript.3dfb665e058d08c99f28.png",
+    "static/media/mern.png": "/static/media/mern.b58d81727b47466a7cda.png",
+    "static/media/Github.png": "/static/media/Github.c8007a9fb185cb152ee6.png",
     "index.html": "/index.html",
-    "main.5c332c0f.css.map": "/static/css/main.5c332c0f.css.map",
-    "main.8e326e3f.js.map": "/static/js/main.8e326e3f.js.map"
+    "main.b3a292af.css.map": "/static/css/main.b3a292af.css.map",
+    "main.c7bbe34a.js.map": "/static/js/main.c7bbe34a.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c332c0f.css",
-    "static/js/main.8e326e3f.js"
+    "static/css/main.b3a292af.css",
+    "static/js/main.c7bbe34a.js"
   ]
 }
