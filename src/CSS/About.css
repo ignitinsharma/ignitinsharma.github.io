@@ -2,11 +2,10 @@
   width: 100%;
   background-color: #fff;
   height: 450px;
-  
 }
 
-.AboutMeSection{
- padding-top: 1rem;
+.AboutMeSection {
+  padding-top: 1rem;
 }
 
 a {
@@ -106,21 +105,21 @@ a {
   margin-top: 2rem;
 }
 
-.DescriptionSpanTag{
+.DescriptionSpanTag {
   color: var(--main-color);
   font-weight: 600;
 }
 
-.QuoteTagDiv{
+.QuoteTagDiv {
   padding: 1rem 0rem;
 }
-.QuoteTag{
+.QuoteTag {
   font-size: 1.2rem;
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .Container {
-    margin-top: 5.5rem;
+    margin-top: 7rem;
     margin-bottom: 12rem;
   }
 
@@ -176,7 +175,7 @@ a {
 }
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   .Container {
-    margin-top: 5rem;
+    margin-top: 6rem;
     margin-bottom: 5rem;
   }
 
