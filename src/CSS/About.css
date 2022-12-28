@@ -1,9 +1,12 @@
 .Container {
   width: 100%;
-  /* background-color: #181818; */
   background-color: #fff;
-  /* background-color: var(--dark-bacground); */
   height: 450px;
+  
+}
+
+.AboutMeSection{
+ padding-top: 1rem;
 }
 
 a {
@@ -60,14 +63,10 @@ a {
   border-radius: 15px;
 }
 .about_rightBox > div {
-  /* width: 250px;
-  height: 250px; */
-
   width: auto;
   height: auto;
   margin: auto;
   border-radius: 20%;
-  /* border: 2px solid #12cc94; */
   overflow: hidden;
 }
 
