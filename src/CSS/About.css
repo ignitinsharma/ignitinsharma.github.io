@@ -107,9 +107,21 @@ a {
   margin-top: 2rem;
 }
 
+.DescriptionSpanTag{
+  color: var(--main-color);
+  font-weight: 600;
+}
+
+.QuoteTagDiv{
+  padding: 1rem 0rem;
+}
+.QuoteTag{
+  font-size: 1.2rem;
+}
+
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .Container {
-    margin-top: 5rem;
+    margin-top: 5.5rem;
     margin-bottom: 12rem;
   }
 
@@ -226,7 +238,7 @@ a {
 }
 @media only screen and (max-width: 320px) {
   .Container {
-    margin-top: 2rem;
+    margin-top: 6rem;
   }
   .aboutBox {
     height: 100%;
@@ -269,13 +281,13 @@ a {
 
   .Imageshape {
     display: block;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     margin-bottom: 2rem;
   }
 
   .myPersonalImage {
-    width: 200px;
+    width: 150px;
     height: auto;
   }
 }
@@ -358,7 +370,8 @@ a {
 }
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .AboutMeSection {
-    margin-top: 5rem;
+    margin-top: auto;
+    padding-top: 2.5rem;
   }
   .aboutSection {
     flex-direction: column;
@@ -374,9 +387,10 @@ a {
     font-size: 14px;
   }
 }
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 321px) and (max-width: 480px) {
   .AboutMeSection {
-    margin-top: 3rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
   }
   .aboutSection {
     flex-direction: column;
@@ -395,9 +409,11 @@ a {
     font-size: 15px;
   }
 }
+
 @media only screen and (max-width: 320px) {
   .AboutMeSection {
-    margin-top: 1.5rem;
+    margin-top: 2rem;
+    padding-top: 2rem;
   }
   .aboutSection {
     flex-direction: column;
