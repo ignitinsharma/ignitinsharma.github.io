@@ -19,7 +19,7 @@ const About = () => {
             </h1>
             <p>
               I am Full Stack Web Developer and i have knowledge in HTML, CSS,
-              Javascript, REACT, ChakraUi and i make user-friendly websites.
+              Javascript, REACT, Chakra-ui and i make user-friendly websites.
             </p>
             <a href="">
               {/* https://drive.google.com/uc?export=download&id=1Tr4JaRtllSROzZWTEwdR4aAUXlfb5CLR */}

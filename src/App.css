@@ -2,6 +2,16 @@
 *{
   font-family: 'Poppins', sans-serif;
 }
+
+
+:root {
+--main-color: #12cc94;
+--background-color: #8492a6;
+--text-color: #343A40;
+--dark-bacground: #222222;
+
+
+}
 .App {
   text-align: center;
   

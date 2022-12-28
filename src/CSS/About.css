@@ -1,6 +1,8 @@
 .Container {
   width: 100%;
-  background-color: #Ffffff;
+  /* background-color: #181818; */
+  background-color: #fff;
+  /* background-color: var(--dark-bacground); */
   height: 450px;
 }
 
@@ -34,8 +36,8 @@ a {
 .about_leftBox button {
   padding: 12px 20px 12px 20px;
   border-radius: 10px;
-  border: 1px solid #12cc94;
-  background: #12cc94;
+  border: 1px solid var(--main-color);
+  background:var(--main-color);
   color: white;
   display: flex;
   align-items: center;
@@ -75,7 +77,7 @@ a {
 .about_box_h3 {
   font-weight: 600;
   font-size: 2.5rem;
-  color: #12cc94;
+  color: var(--main-color);
 }
 .IconsContainer {
   padding-top: 0.6rem;
@@ -84,9 +86,6 @@ a {
 .IconsContainer a {
   margin-right: 0.5rem;
 }
-.AboutIcons:hover {
-    background-color: #12cc94;
-  }
   
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   /* height:450px; */
@@ -273,7 +272,7 @@ a {
   text-align: left;
 }
 .right > h2 > span {
-  color: #12cc94;
+  color: var(--main-color);
 }
 .right > p {
   text-align: left;

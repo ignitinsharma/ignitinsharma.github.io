@@ -54,15 +54,15 @@ li a {
   cursor: pointer;
 }
 li a:hover {
-  color: #12cc94;
+  color: var(--main-color);
   transition: 0.3s;
 }
 .header li .resume {
   width: 80px;
   padding: 10px 20px;
   border-radius: 10px;
-  border: 1px solid #12cc94;
-  background: #12cc94;
+  border: 1px solid var(--main-color);
+  background: var(--main-color);
   color: white;
   display: flex;
   align-items: center;
