@@ -1,8 +1,7 @@
 .ProjectMain {
-  border: 1px solid red;
   width: 80%;
   margin: auto;
-  height: 48rem;
+  height: auto;
 }
 
 .ProjectH1 {
@@ -16,7 +15,7 @@
   height: auto;
   gap: 2rem;
   margin: auto;
-  border: 1px solid blue;
+  margin-bottom: 5rem;
 }
 
 .ProjectLeftSection {
@@ -77,18 +76,18 @@
 
 .TechStackContainer {
   padding: 0rem 2rem;
-  border: 1px solid greenyellow;
+  /* border: 1px solid greenyellow; */
   margin-top: 11rem;
   display: grid;
   row-gap: -2rem;
   column-gap: 0.5rem;
   justify-content: center;
-  grid-template-columns: repeat(auto-fit, minmax(60px, max-content));
+  grid-template-columns: repeat(auto-fit, minmax(80px, max-content));
   align-items: center;
 }
 
 .PTagForSKills {
-  padding: 0.3rem 0.1rem;
+  padding: 0.3rem 0.9rem;
   margin-right: 0.2rem;
   border-radius: 10px;
   font-style: italic;
@@ -138,7 +137,7 @@
   content: "";
   position: absolute;
   z-index: -1;
-  background: var(--green-mint);
+  background: var(--green-second);
   height: 150px;
   width: 200px;
   border-radius: 50%;
@@ -162,7 +161,7 @@
 /* Right Section Project Image CSS */
 
 .ProjectRightSection {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   width: 60%;
   height: 22rem;
   border-radius: 10px;
@@ -192,15 +191,16 @@
     display: block;
     gap: 2rem;
     margin: auto;
+    margin-bottom: 7rem;
   }
   .ProjectLeftSection {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 100%;
     text-align: left;
     margin-bottom: 2rem;
   }
   .ProjectRightSection {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 100%;
     border-radius: 10px;
   }
@@ -208,7 +208,7 @@
   .ProjectLeftGreen {
     padding: 2rem 1rem;
     position: relative;
-    width: 100%;
+    width: auto;
   }
 
   .TechStackContainer {
@@ -232,13 +232,12 @@
     margin: auto;
   }
   .ProjectLeftSection {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 100%;
     text-align: left;
-    margin-bottom: 2rem;
   }
   .ProjectRightSection {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 100%;
     border-radius: 10px;
   }
@@ -246,7 +245,7 @@
   .ProjectLeftGreen {
     padding: 2rem 1rem;
     position: relative;
-    width: 100%;
+    width: auto;
   }
 
   .TechStackContainer {
@@ -279,21 +278,21 @@
     margin: auto;
   }
   .ProjectLeftSection {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 100%;
     text-align: left;
-    margin-bottom: 2rem;
   }
   .ProjectRightSection {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 100%;
     border-radius: 10px;
+    margin-bottom: -3rem;
   }
 
   .ProjectLeftGreen {
     padding: 2rem 1rem;
     position: relative;
-    width: 100%;
+    width: auto;
   }
 
   .TechStackContainer {
@@ -331,15 +330,16 @@
     display: block;
     gap: 2rem;
     margin: auto;
+    margin-bottom: -8rem;
   }
   .ProjectLeftSection {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 100%;
     text-align: left;
     margin-bottom: 2rem;
   }
   .ProjectRightSection {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 100%;
     border-radius: 10px;
   }
@@ -347,7 +347,7 @@
   .ProjectLeftGreen {
     padding: 2rem 1rem;
     position: relative;
-    width: 100%;
+    width: auto;
   }
 
   .TechStackContainer {
