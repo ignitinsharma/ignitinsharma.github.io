@@ -93,7 +93,7 @@ const Navbar = () => {
             <div className="resumeBox">
               <a
                 className="resume"
-                href="https://drive.google.com/file/d/1Tr4JaRtllSROzZWTEwdR4aAUXlfb5CLR/view?usp=share_link"
+                // href="https://drive.google.com/file/d/1Tr4JaRtllSROzZWTEwdR4aAUXlfb5CLR/view?usp=share_link"
                 target="_blank"
                 rel="noreferrer"
               >

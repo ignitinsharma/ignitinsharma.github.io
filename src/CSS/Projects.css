@@ -1,0 +1,223 @@
+.ProjectMain {
+  border: 1px solid red;
+  width: 80%;
+  margin: auto;
+  margin-top: 2rem;
+  height: 48rem;
+}
+
+.ProjectH1 {
+  color: var(--grey-color);
+  font-size: 8rem;
+  margin-bottom: -0.5rem;
+}
+
+.ProjectSection {
+  display: flex;
+  height: auto;
+  gap: 2rem;
+  margin: auto;
+  border: 1px solid blue;
+  /* align-items: center; */
+}
+
+.ProjectLeftSection {
+  width: 50%;
+  text-align: left;
+}
+
+.ProjectName {
+  font-size: 2rem;
+  padding-left: 1rem;
+  display: inline-block;
+  position: relative;
+  color: var(--main-color);
+  cursor: pointer;
+}
+
+.ProjectName::after {
+  content: "";
+  position: absolute;
+  width: 92%;
+  margin-left: 1rem;
+  transform: scaleX(0);
+  height: 2.5px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--main-color);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.ProjectName:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.ProjectLeftGreen {
+  padding: 2rem 1rem;
+  position: absolute;
+  margin-top: -0.5rem;
+  width: 42%;
+  height: auto;
+  border-radius: 20px;
+  background: rgb(19, 185, 135);
+  background: rgb(19, 185, 135);
+  background: linear-gradient(
+    180deg,
+    rgba(19, 185, 135, 1) 64%,
+    rgba(47, 45, 45, 1) 96%
+  );
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* P Tag */
+
+/* .PTagTechStack {
+  margin-right: 0.8rem;
+  font-weight: 600;
+  margin-top: 11rem;
+  padding-left: 1rem;
+} */
+
+.TechStack {
+  width: 100%;
+  height: auto;
+  border: 1px solid green;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 1rem;
+  margin-top: -1rem;
+  margin-top: 11rem;
+}
+.TechStackImages {
+  width: 18px;
+  height: 17px;
+  margin-left: 0.2rem;
+}
+
+.TechStackContainer {
+  display: flex;
+  align-items: center;
+  margin-right: 0.5rem;
+  margin-top: -0.6rem;
+  margin-bottom: -1rem;
+}
+
+.ProjectBTN {
+  display: flex;
+  align-items: center;
+  height: 2.5rem;
+}
+
+.linkSection {
+  display: flex;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+}
+.linkSection > a {
+  text-decoration: none;
+}
+.linkSection > a:first-child > button {
+  background-color: black;
+  color: White;
+  padding: 8px 20px 8px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: none;
+  cursor: pointer;
+}
+button {
+  cursor: pointer;
+}
+button:hover {
+  -webkit-transform: translateY(-2px);
+  transform: translateY(-2px);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.linkSection > a:last-child > button {
+  background-color: black;
+  color: White;
+  padding: 8px 20px 8px 20px;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Right Section Project Image CSS */
+
+.ProjectRightSection {
+  border: 1px solid green;
+  width: 50%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.ProjectImages {
+  width: 100%;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.ProjectImages:hover {
+  transform: scale(1.3);
+  transition: 0.8s;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .ProjectH1 {
+    font-size: 7rem;
+    margin-bottom: -0.5rem;
+  }
+  .ProjectSection {
+    display: flex;
+    justify-content: flex-start;
+    display: block;
+    gap: 2rem;
+    margin: auto;
+  }
+  .ProjectLeftSection {
+    border: 1px solid blue;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+  .ProjectRightSection {
+    border: 1px solid green;
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .ProjectLeftGreen {
+    padding: 2rem 1rem;
+    position: relative;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .ProjectH1 {
+    font-size: 5.5rem;
+    margin-bottom: -0.5rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .ProjectH1 {
+    font-size: 5rem;
+    margin-bottom: -0.5rem;
+  }
+}

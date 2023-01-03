@@ -49,14 +49,17 @@ a {
   font-weight: 700;
   color: #343a40;
 }
+
 li a {
   color: #343a40;
   cursor: pointer;
 }
+
 li a:hover {
   color: var(--main-color);
   transition: 0.3s;
 }
+
 .header li .resume {
   width: 80px;
   padding: 10px 20px;

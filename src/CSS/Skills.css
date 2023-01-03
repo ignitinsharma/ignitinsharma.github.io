@@ -1,0 +1,58 @@
+.SkillContainerMain {
+  width: 100%;
+  margin: auto;
+}
+
+.Skill_H1 {
+  color: var(--grey-color);
+  font-size: 9rem;
+  margin-bottom: -0.5rem;
+}
+
+.skillsContainerSecond {
+  width: 85%;
+  cursor: pointer;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, max-content));
+  justify-content: center;
+  padding: 30px;
+  gap: 20px;
+  row-gap: 2.5rem;
+}
+.skillsContainerSecond > div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  padding: 20px 0px 10px 0px;
+}
+.skillsContainerSecond > div:hover {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-18px);
+  -webkit-transition: all 0.8s;
+  transition: all 0.9s;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .Skill_H1 {
+    font-size: 7.5rem;
+    margin-bottom: -0.5rem;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .Skill_H1 {
+    font-size: 6rem;
+    margin-bottom: -0.5rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .Skill_H1 {
+    font-size: 5rem;
+    margin-bottom: -0.5rem;
+  }
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import DownloadIcon from "@mui/icons-material/Download";
-// import myImage from "../Resources/Images/Personal/Profile_pic_mine.png";
-import myImage2 from "../Images/Personal/Profile_pic_mine_2.png";
+import myImage2 from "../Images/Personal/Profile_pic_mine.png";
+// import myImage2 from "../Images/Personal/Profile_pic_mine_2.png";
 import mysignature from "../Images/Personal/Nitin_signature.png";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -15,8 +15,8 @@ const About = () => {
       <div className="Container">
         <div className="aboutBox">
           <div className="about_leftBox">
-            <h1 style={{ fontWeight: "600", fontSize: "1.3rem" }}>
-              Hi 👋, I'm <h3 className="about_box_h3">Nitin Sharma</h3>
+            <h1 style={{fontSize:'1.5rem'}} >
+              Hi, 👋 I am <h3 className="about_box_h3">Nitin Sharma</h3>
             </h1>
             <p>I'm a Full Stack Web developer from Bahadurgarh, Haryana.</p>
             <div className="QuoteTagDiv"s>
@@ -27,7 +27,7 @@ const About = () => {
             </div>
             <a href="">
               {/* https://drive.google.com/uc?export=download&id=1Tr4JaRtllSROzZWTEwdR4aAUXlfb5CLR */}
-              <button className="DownloadResumeBtn">
+              <button  className="DownloadResumeBtn">
                 Download Resume
                 <DownloadIcon />
               </button>
