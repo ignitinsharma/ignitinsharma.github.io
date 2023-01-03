@@ -15,19 +15,18 @@ const About = () => {
       <div className="Container">
         <div className="aboutBox">
           <div className="about_leftBox">
-            <h1 style={{fontSize:'1.5rem'}} >
+            <h1 style={{ fontSize: "1.5rem" }}>
               Hi, 👋 I am <h3 className="about_box_h3">Nitin Sharma</h3>
             </h1>
             <p>I'm a Full Stack Web developer from Bahadurgarh, Haryana.</p>
-            <div className="QuoteTagDiv"s>
+            <div className="QuoteTagDiv" s>
               <i className="QuoteTag">
-                " I enjoy the challenge of creating new things from scartch,
-                and that's drive me to push my creative imagination. "
+                " I enjoy the challenge of creating new things from scartch, and
+                that's drive me to push my creative imagination. "
               </i>
             </div>
-            <a href="">
-              {/* https://drive.google.com/uc?export=download&id=1Tr4JaRtllSROzZWTEwdR4aAUXlfb5CLR */}
-              <button  className="DownloadResumeBtn">
+            <a href="https://drive.google.com/uc?export=download&id=1rzydD2R905DRz60E6Mx6ukZKEWTkGsEE">
+              <button className="DownloadResumeBtn">
                 Download Resume
                 <DownloadIcon />
               </button>

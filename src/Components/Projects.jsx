@@ -2,36 +2,7 @@ import React from "react";
 import "../CSS/Projects.css";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import StreamIcon from "@mui/icons-material/Stream";
-// import BookingImage from "../Images/Project/Booking.PNG";
-
 import ProjectsData from "../Data/ProjectData.js";
-
-// const DataFunc = () => [
-//   {
-//     id: 1,
-//     title: "Booking Clone",
-//     img: BookingImage,
-//     desc: "Booking.com, headquartered in Amsterdam, is one of the largest online travel agencies which is operating on online Hotels, Flights, Tour pacakges etc.",
-//     githubLink: "https://github.com/MoHitksS/organic-market",
-//     deployedLink: "https://organicmarket.netlify.app/",
-//     tags: [
-//       "React",
-//       "Material UI",
-//     ],
-//   },
-//   {
-//     id: 1,
-//     title: "Booking Clone",
-//     img: BookingImage,
-//     desc: "Booking.com, headquartered in Amsterdam, is one of the largest online travel agencies which is operating on online Hotels, Flights, Tour pacakges etc.",
-//     githubLink: "https://github.com/MoHitksS/organic-market",
-//     deployedLink: "https://organicmarket.netlify.app/",
-//     tags: [
-//       "React",
-//       "Material UI",
-//     ],
-//   },
-// ];
 
 const Projects = () => {
   return (
