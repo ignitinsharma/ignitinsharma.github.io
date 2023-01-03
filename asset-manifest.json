@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.b3a292af.css",
-    "main.js": "/static/js/main.c7bbe34a.js",
-    "static/media/Profile_pic_mine_2.png": "/static/media/Profile_pic_mine_2.babf3b21beff73aac55c.png",
+    "main.css": "/static/css/main.de1eb8b5.css",
+    "main.js": "/static/js/main.2e87dde8.js",
+    "static/media/Profile_pic_mine.png": "/static/media/Profile_pic_mine.e44885d8506a06e09022.png",
+    "static/media/Booking.PNG": "/static/media/Booking.c0676da1203b953c01ea.PNG",
     "static/media/react.png": "/static/media/react.22d1f2096ed82cab7a8a.png",
     "static/media/mongodb.png": "/static/media/mongodb.4f7af09e6354d51beec8.png",
     "static/media/Css.png": "/static/media/Css.845e8eb63836bef093cf.png",
@@ -15,11 +16,11 @@
     "static/media/mern.png": "/static/media/mern.b58d81727b47466a7cda.png",
     "static/media/Github.png": "/static/media/Github.c8007a9fb185cb152ee6.png",
     "index.html": "/index.html",
-    "main.b3a292af.css.map": "/static/css/main.b3a292af.css.map",
-    "main.c7bbe34a.js.map": "/static/js/main.c7bbe34a.js.map"
+    "main.de1eb8b5.css.map": "/static/css/main.de1eb8b5.css.map",
+    "main.2e87dde8.js.map": "/static/js/main.2e87dde8.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3a292af.css",
-    "static/js/main.c7bbe34a.js"
+    "static/css/main.de1eb8b5.css",
+    "static/js/main.2e87dde8.js"
   ]
 }
