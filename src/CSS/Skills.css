@@ -26,6 +26,7 @@
   flex-direction: column;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
   padding: 20px 0px 10px 0px;
+  border-radius: 8px;
 }
 .skillsContainerSecond > div:hover {
   -webkit-transform: translateY(-5px);
