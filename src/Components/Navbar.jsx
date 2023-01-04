@@ -1,5 +1,4 @@
 import "../CSS/Navbar.css";
-// import backgroundImage from '../Resources/Images/backgroundHome.jpg';
 import LibraryBooksIcon from "@mui/icons-material/LibraryBooks";
 import React, { useEffect, useState } from "react";
 import { Link, animateScroll } from "react-scroll";
@@ -14,21 +13,14 @@ const Navbar = () => {
       setColorchange(false);
     }
   };
-  window.addEventListener("scroll", changeNavbarColor);
-  useEffect(() => {
-    if (head || colorChange) {
-      setColorchange(true);
-    } else {
-      setColorchange(false);
-    }
-  }, [head, colorChange]);
+  window.addEventListener("scrollY", changeNavbarColor);
+
   return (
     <div className="NavbarContainer">
-      <header
-        className="header"
-        style={{ backgroundColor: `${colorChange ? "white" : "transparent"}` }}
-      >
-        <a href="/" className="logo">&lt;/Nitin&gt;</a>
+      <header className="header" style={{ backgroundColor: "white" }}>
+        <a href="/" className="logo">
+          &lt;/Nitin&gt;
+        </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label className="menu-icon" htmlFor="menu-btn">
           <span className="navicon"></span>
@@ -36,7 +28,6 @@ const Navbar = () => {
         <ul className="menu">
           <li>
             <Link
-              activeClass="active"
               to="/"
               onClick={() => animateScroll.scrollToTop()}
               spy={true}
@@ -58,8 +49,9 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              activeClass="active"
-              to="skills"
+              offset={100}
+              duration={500}
+              to="/skills"
               onClick={() => setHead(true)}
               spy={true}
               smooth={true}

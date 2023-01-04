@@ -1,0 +1,62 @@
+.ContactContainer {
+  width: 100%;
+  background-color: white;
+  margin-top: -5rem;
+}
+
+.contact {
+  width: 85%;
+  margin: auto;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.middleSection {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1.5rem;
+  justify-content: space-around;
+}
+.middleSection > div {
+  padding: 10px;
+}
+.middleSection > div > h1 {
+  font-size: x-large;
+  margin-top: 0px;
+}
+.middleSection > div p {
+  margin-top: 0px;
+}
+.middleSection > div a {
+  text-decoration: none;
+  color:var(--main-color);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1120px) {
+  .middleSection {
+    grid-template-columns: repeat(1,1fr);
+  }
+  
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .middleSection {
+    grid-template-columns: repeat(1,1fr);  }
+  
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .middleSection {
+    grid-template-columns: repeat(1,1fr);  }
+ 
+}
+@media only screen and (max-width: 320px) {
+  .middleSection {
+    grid-template-columns: repeat(1,1fr);  }
+  
+}
+@media only screen and (max-width: 319px) {
+  .middleSection {
+    grid-template-columns: repeat(1,1fr);  }
+  
+}

@@ -6,7 +6,7 @@ import mysignature from "../Images/Personal/Nitin_signature.png";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import TwitterIcon from "@mui/icons-material/Twitter";
-
+import Typewriter from "typewriter-effect";
 import "../CSS/About.css";
 
 const About = () => {
@@ -18,7 +18,18 @@ const About = () => {
             <h1 style={{ fontSize: "1.5rem" }}>
               Hi, 👋 I am <h3 className="about_box_h3">Nitin Sharma</h3>
             </h1>
-            <p>I'm a Full Stack Web developer from Bahadurgarh, Haryana.</p>
+
+            <p style={{fontWeight:600, fontSize:"1.3rem"}}>
+              <Typewriter
+                className="auto-type"
+                options={{
+                  strings: ["Full Stack Web Developer.", "Ul Developer.", "Problem Solver."],
+                  autoStart: true,
+                  loop: true,
+                  deleteSpeed: 80,
+                }}
+              />
+            </p>
             <div className="QuoteTagDiv" s>
               <i className="QuoteTag">
                 " I enjoy the challenge of creating new things from scartch, and
