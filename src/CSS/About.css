@@ -12,6 +12,10 @@ a {
   text-decoration: none;
 }
 
+.AboutIcons{
+  size: 1rem;
+}
+
 .aboutBox {
   width: 80%;
   height: 100%;
