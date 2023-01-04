@@ -2,8 +2,6 @@ import React from "react";
 import "../CSS/Contact.css";
 import PhoneIcon from "@mui/icons-material/Phone";
 import EmailIcon from "@mui/icons-material/Email";
-import LocationOnIcon from "@mui/icons-material/LocationOn";
-import FavoriteIcon from "@mui/icons-material/Favorite";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 const Contact = () => {

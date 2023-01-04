@@ -14,7 +14,7 @@
 }
 .middleSection {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
   justify-content: space-around;
 }
@@ -30,33 +30,32 @@
 }
 .middleSection > div a {
   text-decoration: none;
-  color:var(--main-color);
+  color: var(--main-color);
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1120px) {
   .middleSection {
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
-  
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .middleSection {
-    grid-template-columns: repeat(1,1fr);  }
-  
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   .middleSection {
-    grid-template-columns: repeat(1,1fr);  }
- 
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 @media only screen and (max-width: 320px) {
   .middleSection {
-    grid-template-columns: repeat(1,1fr);  }
-  
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 @media only screen and (max-width: 319px) {
   .middleSection {
-    grid-template-columns: repeat(1,1fr);  }
-  
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
