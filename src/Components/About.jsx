@@ -23,7 +23,7 @@ const About = () => {
               <Typewriter
                 className="auto-type"
                 options={{
-                  strings: ["Full Stack Web Developer.", "Ul Developer.", "Problem Solver."],
+                  strings: ["Full Stack Web Developer.", "Ul Developer.", "Problem Solver.","Love to build ♥."],
                   autoStart: true,
                   loop: true,
                   deleteSpeed: 80,
