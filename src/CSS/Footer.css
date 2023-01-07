@@ -24,8 +24,8 @@
   );
 }
 
-.IconContainer{
-    padding: 0.5rem 0;
+.IconContainer {
+  padding: 0.5rem 0;
 }
 
 .IconContainer a {
@@ -34,4 +34,21 @@
 
 .FooterIcons {
   color: white;
+}
+
+.FooterSpanNameTag {
+  font-weight: 600;
+  cursor: pointer;
+}
+.FooterSpanNameTag:hover {
+  font-weight: 600;
+  color: var(--main-color);
+}
+
+.HeartSpanTag {
+  color: var(--main-color);
+  cursor: pointer;
+}
+.HeartSpanTag:hover {
+  color: red;
 }

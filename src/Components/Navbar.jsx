@@ -1,20 +1,9 @@
 import "../CSS/Navbar.css";
 import LibraryBooksIcon from "@mui/icons-material/LibraryBooks";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Link, animateScroll } from "react-scroll";
 
 const Navbar = () => {
-  const [colorChange, setColorchange] = useState(false);
-  const [head, setHead] = useState(false);
-  const changeNavbarColor = () => {
-    if (window.scrollY >= 80 || head) {
-      setColorchange(true);
-    } else {
-      setColorchange(false);
-    }
-  };
-  window.addEventListener("scrollY", changeNavbarColor);
-
   return (
     <div className="NavbarContainer">
       <header className="header" style={{ backgroundColor: "white" }}>
@@ -29,54 +18,55 @@ const Navbar = () => {
           <li>
             <Link
               to="/"
+              activeClass="active"
               onClick={() => animateScroll.scrollToTop()}
               spy={true}
               smooth={true}
+              duration={1000}
             >
               🏠 Home
             </Link>
           </li>
           <li>
             <Link
-              activeClass="active"
               to="about"
-              onClick={() => setHead(true)}
-              spy={true}
               smooth={true}
+              duration={1500}
+              spy={true}
+              hashSpy={true}
             >
               👋 About
             </Link>
           </li>
           <li>
             <Link
-              offset={100}
-              duration={500}
-              to="/skills"
-              onClick={() => setHead(true)}
-              spy={true}
+              to="skills"
               smooth={true}
+              duration={1000}
+              spy={true}
+              hashSpy={true}
             >
               🛠️ Skills
             </Link>
           </li>
           <li>
             <Link
-              activeClass="active"
               to="projects"
-              onClick={() => setHead(true)}
-              spy={true}
               smooth={true}
+              duration={1000}
+              spy={true}
+              hashSpy={true}
             >
               📚 Projects
             </Link>
           </li>
           <li>
             <Link
-              activeClass="active"
               to="contact"
-              onClick={() => setHead(true)}
-              spy={true}
               smooth={true}
+              duration={1000}
+              spy={true}
+              hashSpy={true}
             >
               🤙 Contact
             </Link>
