@@ -30,6 +30,8 @@ const Navbar = () => {
           <li>
             <Link
               to="about"
+              offset={150}
+
               smooth={true}
               duration={1500}
               spy={true}
@@ -41,8 +43,9 @@ const Navbar = () => {
           <li>
             <Link
               to="skills"
+              offset={-50}
               smooth={true}
-              duration={1000}
+              duration={1500}
               spy={true}
               hashSpy={true}
             >
@@ -52,8 +55,9 @@ const Navbar = () => {
           <li>
             <Link
               to="projects"
+              offset={-50}
               smooth={true}
-              duration={1000}
+              duration={1500}
               spy={true}
               hashSpy={true}
             >
@@ -64,7 +68,7 @@ const Navbar = () => {
             <Link
               to="contact"
               smooth={true}
-              duration={1000}
+              duration={1500}
               spy={true}
               hashSpy={true}
             >

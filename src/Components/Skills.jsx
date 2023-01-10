@@ -77,7 +77,7 @@ const Skills = () => {
   ];
 
   return (
-    <div className="SkillContainerMain">
+    <div id='skills' className="SkillContainerMain">
       <h1 className="Skill_H1">Skills</h1>
       <div className="skillsContainerSecond">
         {Allskills.map((ele, index) => (

@@ -6,7 +6,7 @@ import LaunchIcon from '@mui/icons-material/Launch';
 
 const Projects = () => {
   return (
-    <div className="ProjectMain">
+    <div id='projects' className="ProjectMain">
       <h1 className="ProjectH1">Projects</h1>
       {ProjectsData.map((el) => (
         <div className="ProjectSection">
