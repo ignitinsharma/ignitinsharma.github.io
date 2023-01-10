@@ -43,11 +43,13 @@
 .FooterSpanNameTag:hover {
   font-weight: 600;
   color: var(--main-color);
+  transition: 0.6s;
 }
 
 .HeartSpanTag {
   color: var(--main-color);
   cursor: pointer;
+  transition: 0.6s;
 }
 .HeartSpanTag:hover {
   color: red;
