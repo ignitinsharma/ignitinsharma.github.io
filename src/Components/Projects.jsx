@@ -29,9 +29,6 @@ const Projects = () => {
               </a>
               <a href={el.deployedLink}>
                   <LaunchIcon />
-                  {/* <p style={{ marginLeft: "0.3rem" }}>Live</p> */}
-                {/* <button className="ProjectButtons">
-                </button> */}
               </a>
             </div>
           </div>
