@@ -106,60 +106,12 @@
 .linkSection {
   display: flex;
   gap: 20px;
-  justify-content: center;
+  justify-content: left;
+  padding: 1rem 0.8rem;
 }
 .linkSection > a {
   text-decoration: none;
 }
-
-.ProjectButtons {
-  display: inline-block;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 8em;
-  height: 2.6em;
-  line-height: 2.5em;
-  margin: 20px;
-  position: relative;
-  overflow: hidden;
-  border: 2px solid black;
-  background-color: white;
-  transition: color 0.7s;
-  z-index: 1;
-  font-size: 17px;
-  border-radius: 10px;
-  font-weight: 600;
-  cursor: pointer;
-}
-
-.ProjectButtons:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  background-color: var(--main-color);
-  height: 150px;
-  width: 200px;
-  border-radius: 50%;
-}
-
-.ProjectButtons:before {
-  top: 100%;
-  left: 100%;
-  transition: all 0.7s;
-}
-
-.ProjectButtons:hover:before {
-  top: -30px;
-  left: -30px;
-}
-
-.ProjectButtons:active:before {
-  transition: background 0s;
-  color: aliceblue;
-
-}
-
 
 .ProjectRightSection {
   width: 60%;
@@ -250,7 +202,7 @@
   .linkSection {
     display: flex;
     gap: 10px;
-    justify-content: center;
+    justify-content: left;
   }
   .ProjectH1 {
     font-size: 6rem;
@@ -296,7 +248,7 @@
   .linkSection {
     display: flex;
     gap: 10px;
-    justify-content: center;
+    justify-content: left;
   }
 
   .ProjectButtons {
@@ -350,7 +302,7 @@
   .linkSection {
     display: flex;
     gap: 1px;
-    justify-content: space-around;
+    justify-content: left;
   }
 
   .ProjectButtons {

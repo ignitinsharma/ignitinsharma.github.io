@@ -1,8 +1,8 @@
 import React from "react";
 import "../CSS/Projects.css";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import StreamIcon from "@mui/icons-material/Stream";
 import ProjectsData from "../Data/ProjectData.js";
+import LaunchIcon from '@mui/icons-material/Launch';
 
 const Projects = () => {
   return (
@@ -25,16 +25,13 @@ const Projects = () => {
             </div>
             <div className="linkSection">
               <a href={el.githubLink}>
-                <button className="ProjectButtons">
                   <GitHubIcon />
-                  <p style={{ marginLeft: "0.3rem" }}>Github</p>
-                </button>
               </a>
               <a href={el.deployedLink}>
-                <button className="ProjectButtons">
-                  <StreamIcon />
-                  <p style={{ marginLeft: "0.3rem" }}>Live</p>
-                </button>
+                  <LaunchIcon />
+                  {/* <p style={{ marginLeft: "0.3rem" }}>Live</p> */}
+                {/* <button className="ProjectButtons">
+                </button> */}
               </a>
             </div>
           </div>
