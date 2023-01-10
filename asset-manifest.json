@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.970ecda1.css",
-    "main.js": "/static/js/main.de78e761.js",
+    "main.css": "/static/css/main.5650b57b.css",
+    "main.js": "/static/js/main.ec24fe5d.js",
+    "static/media/Bluemercury.PNG": "/static/media/Bluemercury.0c3106ceced2a742f6bd.PNG",
     "static/media/Profile_pic_mine.png": "/static/media/Profile_pic_mine.e44885d8506a06e09022.png",
+    "static/media/Envoy.PNG": "/static/media/Envoy.1cd9ce477d5b2f328c7c.PNG",
     "static/media/Booking.PNG": "/static/media/Booking.c0676da1203b953c01ea.PNG",
     "static/media/react.png": "/static/media/react.22d1f2096ed82cab7a8a.png",
     "static/media/mongodb.png": "/static/media/mongodb.4f7af09e6354d51beec8.png",
@@ -16,11 +18,11 @@
     "static/media/mern.png": "/static/media/mern.b58d81727b47466a7cda.png",
     "static/media/Github.png": "/static/media/Github.c8007a9fb185cb152ee6.png",
     "index.html": "/index.html",
-    "main.970ecda1.css.map": "/static/css/main.970ecda1.css.map",
-    "main.de78e761.js.map": "/static/js/main.de78e761.js.map"
+    "main.5650b57b.css.map": "/static/css/main.5650b57b.css.map",
+    "main.ec24fe5d.js.map": "/static/js/main.ec24fe5d.js.map"
   },
   "entrypoints": [
-    "static/css/main.970ecda1.css",
-    "static/js/main.de78e761.js"
+    "static/css/main.5650b57b.css",
+    "static/js/main.ec24fe5d.js"
   ]
 }
