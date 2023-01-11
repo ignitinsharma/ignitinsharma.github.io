@@ -126,6 +126,8 @@
   border-radius: 10px;
   transition: all 0.2s ease-in-out;
   cursor: pointer;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+
 }
 .ProjectImages:hover {
   transform: scale(1.3);
