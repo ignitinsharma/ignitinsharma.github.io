@@ -2,11 +2,12 @@ import React from "react";
 import "../CSS/Projects.css";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import ProjectsData from "../Data/ProjectData.js";
-import LaunchIcon from '@mui/icons-material/Launch';
+import SecondryPojects from "../Data/SecondryPojectsData.js";
+import LaunchIcon from "@mui/icons-material/Launch";
 
 const Projects = () => {
   return (
-    <div id='projects' className="ProjectMain">
+    <div id="projects" className="ProjectMain">
       <h1 className="ProjectH1">Projects</h1>
       {ProjectsData.map((el) => (
         <div className="ProjectSection">
@@ -25,10 +26,10 @@ const Projects = () => {
             </div>
             <div className="linkSection">
               <a href={el.githubLink}>
-                  <GitHubIcon />
+                <GitHubIcon />
               </a>
               <a href={el.deployedLink}>
-                  <LaunchIcon />
+                <LaunchIcon />
               </a>
             </div>
           </div>
@@ -37,6 +38,39 @@ const Projects = () => {
           </div>
         </div>
       ))}
+
+      <div className="SecondProjectParent">
+        <h1 className="SecondProjectH1">Other Noteworthy Projects</h1>
+        {/* Grid */}
+        <div className="SecondProjectSection">
+          {SecondryPojects.map((ele, i) => (
+            <div key={i} class="SingleProductDiv">
+              <div>
+                <img className="SingleProjectsImage" src={ele.img} alt="" />
+              </div>
+              <div>
+                <p className="SecondProjectTitleTag">{ele.title}</p>
+                <p className="SecondProjectPforDesc">{ele.desc}</p>
+                <div className="SecondProjectSpanDiv">
+                  {ele.tags.map((tags, i) => (
+                    <span className="SingleProjectsPTag" key={i}>
+                      {tags},
+                    </span>
+                  ))}
+                </div>
+                <div className="SecondProjectLinkDiv">
+                  <a href={ele.githubLink}>
+                    <GitHubIcon />
+                  </a>
+                  <a href={ele.deployedLink}>
+                    <LaunchIcon />
+                  </a>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
   );
 };

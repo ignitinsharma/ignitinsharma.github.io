@@ -3,6 +3,8 @@ import "../CSS/Footer.css";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import TwitterIcon from "@mui/icons-material/Twitter";
+// import wavePng from "../Images/Personal/wavePng.png";
+
 const Footer = () => {
   return (
     <div className="FooterSection">
@@ -25,6 +27,7 @@ const Footer = () => {
       </div>
       <p className="LinePTag"></p>
     </div>
+
   );
 };
 
