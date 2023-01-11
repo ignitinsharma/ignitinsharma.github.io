@@ -132,6 +132,90 @@
   transition: 0.8s;
 }
 
+/* ======= Second Project Section ======== */
+
+.SecondProjectParent {
+  width: 100%;
+  height: auto;
+  padding-bottom: 2rem;
+}
+
+.SecondProjectH1 {
+  color: var(--grey-color);
+  font-size: 3rem;
+}
+
+.SecondProjectSection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.SingleProductDiv {
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  background: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  backdrop-filter: blur(6px);
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  font-weight: bolder;
+  padding: 1rem 0.4rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.SingleProductDiv:hover {
+  border: 2px solid var(--main-color);
+  transform: scale(1.05);
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+}
+
+.SingleProductDiv:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+
+.SingleProjectsImage {
+  width: 260px;
+  height: 150px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.SingleProjectsPTag {
+  font-size: 13px;
+  font-weight: 500;
+}
+.SecondProjectTitleTag {
+  font-weight: 550;
+  font-size: 1.2rem;
+}
+
+.SecondProjectSpanDiv {
+  margin: 1rem 0;
+}
+.SecondProjectSpanDiv span {
+  margin-right: 0.3rem;
+  font-style: italic;
+}
+.SecondProjectPforDesc {
+  width: 80%;
+  margin: auto;
+  font-weight: 500;
+  font-size: 13px;
+  margin-top: 3px;
+}
+
+.SecondProjectLinkDiv a {
+  margin-right: 0.4rem;
+}
+
 @media only screen and (min-width: 769px) and (max-width: 1110px) {
   .ProjectH1 {
     font-size: 8rem;
@@ -166,6 +250,9 @@
   }
   .ProjectImages {
     margin-top: 4rem;
+  }
+  .SecondProjectSection {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -210,6 +297,13 @@
   }
   .ProjectImages {
     margin-top: -4rem;
+  }
+  .SecondProjectSection {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .SingleProjectsImage {
+    width: 350px;
+    height: 200px;
   }
 }
 
@@ -263,6 +357,13 @@
   .ProjectImages {
     margin-top: -10rem;
   }
+  .SecondProjectSection {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .SecondProjectH1 {
+    font-size: 2rem;
+  }
+ 
 }
 
 @media only screen and (max-width: 320px) {
@@ -315,5 +416,15 @@
   }
   .ProjectImages {
     margin-top: -12rem;
+  }
+  .SecondProjectSection {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .SecondProjectH1 {
+    font-size: 2rem;
+  }
+  .SingleProjectsImage {
+    width: 230px;
+    height: 140px;
   }
 }

@@ -10,7 +10,7 @@ const ProjectsData = [
     desc: "Booking.com, headquartered in Amsterdam, is one of the largest online travel agencies which is operating on online Hotels, Flights, Tour pacakges etc.",
     githubLink: "https://github.com/ignitinsharma/Booking.com-Clone",
     deployedLink: "https://mybooking-com.vercel.app/",
-    tags: ["React", "Html", "Css", "Mui Icons"],
+    tags: ["Html", "Css", "React", "Mui Icons"],
   },
   {
     id: 2,
