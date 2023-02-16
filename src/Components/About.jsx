@@ -40,7 +40,15 @@ const About = () => {
                 that's drive me to push my creative imagination. "
               </i>
             </div>
-            <a href="https://drive.google.com/uc?export=download&id=1rzydD2R905DRz60E6Mx6ukZKEWTkGsEE">
+            <a
+              href="https://drive.google.com/uc?export=download&id=1rzydD2R905DRz60E6Mx6ukZKEWTkGsEE"
+              download={"Nitin-sharma-resume"}
+              onClick={() =>
+                window.open(
+                  "https://drive.google.com/file/d/1rzydD2R905DRz60E6Mx6ukZKEWTkGsEE/view?usp=sharing"
+                )
+              }
+            >
               <button className="DownloadResumeBtn">
                 Download Resume
                 <DownloadIcon />

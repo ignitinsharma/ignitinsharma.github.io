@@ -25,10 +25,10 @@ const Projects = () => {
               ))}
             </div>
             <div className="linkSection">
-              <a href={el.githubLink}>
+              <a target="_blank" href={el.githubLink}>
                 <GitHubIcon />
               </a>
-              <a href={el.deployedLink}>
+              <a target="_blank"href={el.deployedLink}>
                 <LaunchIcon />
               </a>
             </div>
@@ -59,10 +59,10 @@ const Projects = () => {
                   ))}
                 </div>
                 <div className="SecondProjectLinkDiv">
-                  <a href={ele.githubLink}>
+                  <a target="_blank" href={ele.githubLink}>
                     <GitHubIcon />
                   </a>
-                  <a href={ele.deployedLink}>
+                  <a target="_blank" href={ele.deployedLink}>
                     <LaunchIcon />
                   </a>
                 </div>
