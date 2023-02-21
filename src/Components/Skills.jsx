@@ -10,10 +10,10 @@ import Redux from "../Images/SkillImages/redux.png";
 import ChakraUi from "../Images/SkillImages/ChakraUi.png";
 import Mongodb from "../Images/SkillImages/mongodb.png";
 import Nodejs from "../Images/SkillImages/nodejs.png";
-// import Mern from "../Images/SkillImages/mern.png";
+import Postman from "../Images/SkillImages/postman.png";
 import Express from "../Images/SkillImages/Express.png";
 import Nextjs from "../Images/SkillImages/nextjs.png";
-import Typescript from "../Images/SkillImages/ts.png";
+import Mongoose from "../Images/SkillImages/mongoose.png";
 
 const Skills = () => {
   const Allskills = [
@@ -46,16 +46,16 @@ const Skills = () => {
       title: "Chakra-Ui",
     },
     {
-      img: Typescript,
-      title: "Typescript",
-    },
-    {
       img: Git,
       title: "Git",
     },
     {
       img: Github,
       title: "Github",
+    },
+    {
+      img: Postman,
+      title: "Postman",
     },
     {
       img: Mongodb,
@@ -68,6 +68,10 @@ const Skills = () => {
     {
       img: Express,
       title: "ExpressJS",
+    },
+    {
+      img: Mongoose,
+      title: "Mongoose",
     },
   ];
 
