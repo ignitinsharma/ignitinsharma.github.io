@@ -31,7 +31,6 @@ const Navbar = () => {
             <Link
               to="about"
               offset={150}
-
               smooth={true}
               duration={1500}
               spy={true}
@@ -79,8 +78,13 @@ const Navbar = () => {
             <div className="resumeBox">
               <a
                 className="resume"
-                href="https://drive.google.com/file/d/1rzydD2R905DRz60E6Mx6ukZKEWTkGsEE/view?usp=sharing"
-                target="_blank"
+                href="https://drive.google.com/uc?export=download&id=1rzydD2R905DRz60E6Mx6ukZKEWTkGsEE"
+                download={"Nitin-sharma-resume"}
+                onClick={() =>
+                  window.open(
+                    "https://drive.google.com/file/d/1rzydD2R905DRz60E6Mx6ukZKEWTkGsEE/view?usp=sharing"
+                  )
+                }
                 rel="noreferrer"
               >
                 Resume
@@ -95,3 +99,11 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+// href="https://drive.google.com/uc?export=download&id=1rzydD2R905DRz60E6Mx6ukZKEWTkGsEE"
+// download={"Nitin-sharma-resume"}
+// onClick={() =>
+//   window.open(
+//     "https://drive.google.com/file/d/1rzydD2R905DRz60E6Mx6ukZKEWTkGsEE/view?usp=sharing"
+//   )
+// }
