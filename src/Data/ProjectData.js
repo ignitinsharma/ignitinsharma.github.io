@@ -8,8 +8,8 @@ const ProjectsData = [
     title: "01. bumBlebee",
     img: BumBlebee,
     desc: "BumBlebee is a clone of zoomcar website which is car rental website. This project build by team of 4 members.",
-    githubLink: "https://github.com/ignitinsharma/Booking.com-Clone",
-    deployedLink: "https://mybooking-com.vercel.app/",
+    githubLink: "https://github.com/Suneet25/zoomcar-clone",
+    deployedLink: "https://sick-insect-8581.vercel.app/",
     tags: ["Html", "Css", "React", "Chakra-ui"],
   },
   {
